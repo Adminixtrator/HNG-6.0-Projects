@@ -13,7 +13,7 @@ body{
 }
 .right{
     width: 50%;
-    float: inline-end;
+    float: right;
     margin-inline-start: 4%;
     text-align: left;
 }
@@ -82,5 +82,26 @@ p{
     height: 3px;
     background-color: #00A016;
     border: none;
+    border-radius: 5px;
+}
+#name, #email{
+    border: 2px solid #0984e3;
+    border-radius: 5px;
+    width: 40%;
+}
+#message{
+    border: 2px solid #0984e3;
+    border-radius: 5px;
+    width: 40%;
+    height: 3em;
+    padding: 0px;
+    padding-left: 2px;
+    word-wrap: break-word;
+}
+.button{
+    background-color: #0984e3;
+    color: #d5d5d5;
+    border: 2px solid #d5d5d5;
+    padding: 10px;
     border-radius: 5px;
 }
